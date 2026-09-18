@@ -1,0 +1,36 @@
+# Python Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Data Files & Datasets (Prevent committing binary image data)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/splits/*
+!data/splits/.gitkeep
+
+# Saved Model Checkpoints & Weights
+models/*
+!models/.gitkeep
+*.pt
+*.pth
+*.h5
+*.onnx
+*.ckpt
+
+# Operating System & IDE Files
+.DS_Store
+.vscode/
+.idea/
+*.log

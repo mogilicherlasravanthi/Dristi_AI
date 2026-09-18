@@ -1,0 +1,22 @@
+{
+  "name": "dristi-ai-backend",
+  "version": "1.0.0",
+  "description": "Node.js + Express backend foundation for Dristi AI Diabetic Retinopathy Screening System (SIH26038)",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "node --test ../tests/backend/test_backend_api.js ../tests/database/test_mongodb.js ../tests/integration/test_node_python_ipc.js ../tests/frontend/test_frontend_build.js ../tests/e2e/test_e2e_workflow.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^9.10.1",
+    "multer": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

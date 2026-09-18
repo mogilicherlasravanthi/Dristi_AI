@@ -1,0 +1,7 @@
+{
+    "total_training_time_sec": 15467.979441642761,
+    "total_parameters": 4013953,
+    "trainable_parameters_stage2": 3162145,
+    "best_val_macro_f1": 0.9780025973610578,
+    "checkpoint_path": "C:\\Users\\Sravanthi\\OneDrive\\Desktop\\dristi-ai\\ml\\models\\dristi_efficientnet_b0_baseline.pth"
+}
